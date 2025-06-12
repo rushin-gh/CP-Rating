@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CP Rating</title>
     <script src="script.js" defer></script>
+    <style>
+        div {
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <label>
+            Username : 
+            <input type="text" name="UserName" id="username" placeholder="Enter CP username">
+        </label>
+    </div>
+
+    <div>
+        <button id="cfsubmit"> <img src="images/cf.png" alt="CF Logo" width="15px"> Codeforces</button>
+        <button id="ccsubmit"> <img src="images/cc.jpg" alt="CC Logo" width="15px"> Codechef</button>
+    </div>
+
+    <div id="ratingDiv">
+
+    </div>
 </body>
 </html>

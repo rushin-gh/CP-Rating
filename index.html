@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CP Rating</title>
     <script src="script.js" defer></script>
-    <style>
-        div {
-            margin: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <label>
-            Username : 
-            <input type="text" name="UserName" id="username" placeholder="Enter CP username">
+    <div id="inputWindow">
+        <img src="images/cf.png" alt="CF Logo" width="50px">
+        <label style="margin-left: 20px;">
+            <input style="padding: 10px; font-size: 15px;" type="text" name="UserName" id="username" placeholder="Enter CP username">
         </label>
-        <button id="cfsubmit"> <img src="images/cf.png" alt="CF Logo" width="15px"> Codeforces</button>
     </div>
 
-    <div id="ratingDiv">
+    <div id="userDetails">
+        <table>
+            <thead>
+                <tr>
+                    <th>Contest Id</th>
+                    <th>Contest Name</th>
+                    <th>Rank</th>
+                    <th>Old Rating</th>
+                    <th>New Rating</th>
+                    <th>Delta</th>
+                </tr>
+            </thead>
+            <tbody id="contestHistory">
+
+            </tbody>
+        </table>
 
     </div>
 </body>

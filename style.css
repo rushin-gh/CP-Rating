@@ -1,0 +1,25 @@
+/* body {
+    /* padding: 10px; */
+    margin: 10px;
+} */
+
+table {
+    width: 100vw;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+#inputWindow {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 20px;
+}

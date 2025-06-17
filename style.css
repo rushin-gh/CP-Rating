@@ -1,10 +1,6 @@
-/* body {
-    /* padding: 10px; */
-    margin: 10px;
-} */
-
-table {
-    width: 100vw;
+body {
+    padding: 10px;
+    margin: 10px; 
 }
 
 table, th, td {
@@ -19,7 +15,6 @@ th, td {
 
 #inputWindow {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 20px;
 }
